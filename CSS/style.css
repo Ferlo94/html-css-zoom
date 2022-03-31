@@ -48,7 +48,7 @@ main {
 }
 
 .rettangolo-foto {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 5px);
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -73,9 +73,9 @@ main {
   }
 
   .mic-mutato::before {
+    color: #d0402c;  
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
-    content: '\f131';
-    color: #d0402c;
     margin-right: 5px;
+    content: '\f131';
   }
