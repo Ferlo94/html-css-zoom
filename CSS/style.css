@@ -12,13 +12,23 @@ header {
     display: flex;
     justify-content: space-between;
     height: 50px;
+}
 
+.header-destra, .header-sinistra {
+    padding: 5px 8px;
 }
 
 .header-sinistra {
-
+    
 }
 
 .header-destra {
 
+}
+
+.bottone-scudo-verde, .bottone-player, .bottone-view {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
 }
