@@ -6,6 +6,7 @@
 
 body {
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -60,3 +61,21 @@ main {
     min-width: 100px;
     background-repeat: no-repeat;
 }
+
+.nome-utente {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    background-color: #302e2b;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .mic-mutato::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    content: '\f131';
+    color: #d0402c;
+    margin-right: 5px;
+  }
