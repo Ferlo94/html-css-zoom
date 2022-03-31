@@ -12,18 +12,23 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
 }
 
 main {
-    height: 100vh;
+    height: calc(100vh - 140px);
     justify-content: center;
     display: flex;
     align-items: center;
+    overflow-y: auto;
+}
+
+footer {
+    height: 80px;
 }
 
 .header-destra, .header-sinistra {
-    padding: 5px 8px;
+    padding: 8px 8px;
 }
 
 .fa-solid.fa-circle-dot, .fa-solid.fa-pause,
@@ -68,14 +73,14 @@ main {
     left: 5px;
     color: white;
     background-color: #302e2b;
-    padding: 5px;
+    padding: 3px 6px;
     border-radius: 5px;
-  }
+}
 
-  .mic-mutato::before {
+.mic-mutato::before {
     color: #d0402c;  
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     margin-right: 5px;
     content: '\f131';
-  }
+}
