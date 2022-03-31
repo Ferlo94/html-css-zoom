@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+.header-sinistra {
+
+}
+
+.header-destra {
+
+}
