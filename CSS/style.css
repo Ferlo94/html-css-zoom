@@ -14,6 +14,13 @@ header {
     height: 50px;
 }
 
+main {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .header-destra, .header-sinistra {
     padding: 5px 8px;
 }
@@ -28,4 +35,28 @@ header {
     color: white;
     cursor: pointer;
     border: none;
+}
+
+.contenitore-foto {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6px;
+    align-content: center;
+}
+
+.rettangolo-foto {
+    width: calc(100% / 6);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto-utente {
+    background-image: url('https://as01.epimg.net/en/imagenes/2022/03/28/latest_news/1648480952_520886_1648481180_noticia_normal_recorte1.jpg');
+    background-size: contain;
+    min-height: 128px;
+    min-width: 100px;
+    background-repeat: no-repeat;
 }
