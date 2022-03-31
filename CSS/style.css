@@ -18,12 +18,9 @@ header {
     padding: 5px 8px;
 }
 
-.header-sinistra {
-    
-}
-
-.header-destra {
-
+.fa-solid.fa-circle-dot, .fa-solid.fa-pause,
+.fa-solid.fa-stop, .bottone-player > span {
+    padding-left: 8px;
 }
 
 .bottone-scudo-verde, .bottone-player, .bottone-view {
