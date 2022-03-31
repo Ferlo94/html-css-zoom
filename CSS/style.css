@@ -25,6 +25,15 @@ main {
 
 footer {
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #a7a7a7;
+    background-color: #212121;
+    padding: 0 7px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header-destra, .header-sinistra {
@@ -83,4 +92,41 @@ footer {
     font-weight: 900;
     margin-right: 5px;
     content: '\f131';
+}
+
+.footer-sinistra,.footer-centrale, .footer-destra {
+    display: flex;
+    gap: 10px;
+}
+  
+.bottone-footer {
+    background-color: transparent;
+    border: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    color: inherit;
+    cursor: pointer;
+    position: relative;
+}
+  
+.freccetta-bottoni {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    font-size: 10px;
+}
+  
+.foter-destra {
+    margin-right: 10px;
+}
+  
+.bottone-exit {
+    background-color: #ab392b;
+    color: #fcf9f8;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
 }
